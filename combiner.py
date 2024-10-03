@@ -42,5 +42,6 @@ for i in range(rows):
         combined= combined + "}, "
         
 combined = combined + "}}; "
+print("Your matrix is: ")
 print(combined)
 
