@@ -17,4 +17,4 @@ once saved you can run combiner .py and should see a similar output to this:
 
 This output can then be copied into arduino.ino and pasted after the equals of the matrix variable (read the comments).
 
-
+You must also include the neopixel library on arduino.
