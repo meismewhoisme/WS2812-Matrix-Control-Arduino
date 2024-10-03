@@ -1,4 +1,4 @@
-This is a way to convert a 8x8 png such as one made in piskel to for display on an 8x8 ws2812 led matrix.
+This is a way to convert a 8x8 (or any scale but only tested on 8x8) png such as one made in piskel to for display on an 8x8 (same as before, any should work but untested.) ws2812 led matrix.
 
 You will need another piece of software called: A-VEKT Image CSV Converter (https://www.avekt.com/en-us/Software/ImageCSV) but it is free.
 
@@ -7,5 +7,9 @@ then hit edit and decompose.
 i close the a channel but if You are using rgbw led's this could be used to drive the W channel.
 
 For each subsequent channel hit save as, change the extension to ".csv". 
-save the channels as Red.csv,Blue.csv,Green.csv
-Each channel should be 
+save the channels as Red.csv, Blue.csv, Green.csv (you can save them by another name but you will need to adjust the file locators in combiner.py)
+Save these in the same directory as combiner.py
+
+once saved you can run combiner .py and should see a similar output to this. 
+
+
