@@ -10,6 +10,11 @@ For each subsequent channel hit save as, change the extension to ".csv".
 save the channels as Red.csv, Blue.csv, Green.csv (you can save them by another name but you will need to adjust the file locators in combiner.py)
 Save these in the same directory as combiner.py
 
-once saved you can run combiner .py and should see a similar output to this. 
+once saved you can run combiner .py and should see a similar output to this:
+
+  Your matrix is: 
+  {{{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}}, {{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0}}, {{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0}}, {{0,0,0},{0,0,0},    {0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}}, {{223,78,26},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{223,78,26}}, {{223,78,26},{223,78,26},{223,78,26},{0,0,0},{0,0,0},{26,53,223},{223,78,26},{223,78,26}}, {{0,0,0},{26,53,223},      {223,78,26},{223,78,26},{223,78,26},{223,78,26},{0,0,0},{0,0,0}}, {{0,0,0},{26,53,223},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}}};
+
+This output can then be copied into arduino.ino and pasted after the equals of the matrix variable (read the comments)
 
 
