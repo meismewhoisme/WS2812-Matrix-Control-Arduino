@@ -15,6 +15,10 @@ once saved you can run combiner .py and should see a similar output to this:
   Your matrix is: 
   {{{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}}, {{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0}}, {{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0},{213,223,26},{0,0,0},{0,0,0}}, {{0,0,0},{0,0,0},    {0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}}, {{223,78,26},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{223,78,26}}, {{223,78,26},{223,78,26},{223,78,26},{0,0,0},{0,0,0},{26,53,223},{223,78,26},{223,78,26}}, {{0,0,0},{26,53,223},      {223,78,26},{223,78,26},{223,78,26},{223,78,26},{0,0,0},{0,0,0}}, {{0,0,0},{26,53,223},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}}};
 
-This output can then be copied into arduino.ino and pasted after the equals of the matrix variable (read the comments).
+This output can then be copied into arduino.ino and pasted after the equals of the matrix variable of the arduino.ino file(read the comments).
 
-You must also include the neopixel library on arduino.
+You must also include the neopixel library on arduino. 
+
+adjust the rows and columns as well as the total number of LED's (Normally rows*columns)
+
+Upload this code to the arduino.
