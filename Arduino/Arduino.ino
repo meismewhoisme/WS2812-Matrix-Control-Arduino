@@ -22,6 +22,7 @@ int matrix[8][8][3] = {{{255,0,0},{0,255,229},{255,0,0},{0,255,229},{255,0,0},{0
 void setup() {
   WS2812B.begin();  // INITIALIZE WS2812B strip object (REQUIRED)
   Serial.begin(9600);
+
 }
 
 void loop() {
@@ -50,6 +51,8 @@ void loop() {
     WS2812B.setPixelColor(pixel, WS2812B.Color(matrix[(pixel/Columns)][pixel%Columns][0], matrix[(pixel/Columns)][pixel%Columns][1], matrix[(pixel/Columns)][pixel%Columns][2]));  //This tells each pixel what colour it should be
     WS2812B.show();  // This sends the new pixel colours to the pixel, this can be included only after all pixels are set to increase speed and reduce "rolling shutter" effect.
     
+    WS2812B.clear();
+    WS2812B.show();
     //  delay(500); // This would be used to have the pixels filled in visibly one at a time.                                  
 
   }
