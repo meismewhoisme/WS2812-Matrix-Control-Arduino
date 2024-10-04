@@ -22,3 +22,5 @@ You must also include the neopixel library on arduino.
 adjust the rows and columns as well as the total number of LED's (Normally rows*columns)
 
 Upload this code to the arduino.
+
+connect the led matrix to the arduino, connecting the matrixs input pin to the pin specified in the code and the gnd and 5v to the gnd and 5v on the arduino. it may be easier to solder headers first.
